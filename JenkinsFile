@@ -26,7 +26,7 @@ bat "npx ng test --no-watch --no-progress --browser=ChromeHeadless"
     }
  }
  post {
-    sucess {
+    success {
         echo "angular application biuld successfully"
     }
     failure{
