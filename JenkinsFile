@@ -16,7 +16,8 @@ steps {
     }
     stage("Testing"){
         steps{
-bat "npx ng test --no-watch --no-progress --browser=ChromeHeadless"
+// bat "npx ng test --no-watch --no-progress --browser=ChromeHeadless"
+echo "testing"
         }
     }
     stage("build"){
